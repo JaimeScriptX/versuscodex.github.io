@@ -1,0 +1,9 @@
+.imgcafe{
+    margin-top: 10%;
+}
+
+
+#home{
+    background-image: url("../imagenes/cafe-corazon-bg.png");
+    background-size: cover;
+}
