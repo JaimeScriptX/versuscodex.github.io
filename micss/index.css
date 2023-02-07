@@ -4,6 +4,30 @@
 
 
 #home{
-    background-image: url("../imagenes/cafe-corazon-bg.png");
+    background-image: url("../assets/misimagenes/cafe-corazon-bg.png");
     background-size: cover;
 }
+
+/* .ud-about{
+    padding: 20px;
+} */
+/* #btn-cta{
+
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    transition: all 1s;
+    color:white;
+    font-size: 22px;
+    background: radial-gradient(right to left,#f1f1f1, rgb(143, 125, 125));
+}
+
+#btn-cta a{
+    color: white;
+}
+
+#btn-cta:hover{
+    background-color: #f1f1f1;
+    color: rgb(7, 5, 5);
+} */
