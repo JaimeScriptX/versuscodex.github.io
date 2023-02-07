@@ -795,8 +795,12 @@ p {
 /* ===== About CSS ===== */
 .ud-about {
   background: #f3f4fe;
-  padding: 0px 0;
+  padding: 30px 0;
   margin: 0px;
+}
+
+.ud-about .container{
+  padding: 0px;
 }
 
 @media (max-width: 767px) {
