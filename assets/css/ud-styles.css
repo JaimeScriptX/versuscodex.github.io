@@ -807,6 +807,10 @@ p {
   padding-bottom: 60px;
 }
 
+#pricing-destacado{
+  background: linear-gradient(0deg, rgba(139,160,228,1) 0%, rgba(153,255,238,1) 100%);
+}
+
 .ud-about .container{
   padding: 0px;
 }
