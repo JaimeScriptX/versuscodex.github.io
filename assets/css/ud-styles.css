@@ -795,8 +795,20 @@ p {
 /* ===== About CSS ===== */
 .ud-about {
   background: #f3f4fe;
-  padding: 30px 0;
+  padding: 0 0;
   margin: 0px;
+}
+
+#about-primero{
+  padding-top: 60px;
+}
+
+#about-ultimo{
+  padding-bottom: 60px;
+}
+
+#pricing-destacado{
+  background: linear-gradient(0deg, rgba(139,160,228,1) 0%, rgba(153,255,238,1) 100%);
 }
 
 .ud-about .container{
