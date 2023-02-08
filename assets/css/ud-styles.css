@@ -1667,8 +1667,12 @@ p {
   padding-top: 130px;
   padding-bottom: 80px;
   background: var(--primary-color);
+<<<<<<< Updated upstream
   /* background-image: url("../images/banner/banner-bg.svg"); */
   background-image: url("../misimagenes/patronh.jfif");
+=======
+  background-image: url("../images/products/a_background_ui_desing_wave_pattern_black_and_white_Seed-3657498_Steps-25_Guidance-7.5.jpeg");
+>>>>>>> Stashed changes
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1681,7 +1685,8 @@ p {
 }
 
 .ud-banner-content h1 {
-  color: var(--white);
+  -webkit-text-stroke: 2px rgb(0, 0, 0);
+  color: white; 
   font-size: 38px;
   font-weight: 600;
 }
