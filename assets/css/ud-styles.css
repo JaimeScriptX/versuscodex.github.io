@@ -807,9 +807,8 @@ p {
   padding-bottom: 60px;
 }
 
-#pricing-destacado{
-  background: linear-gradient(0deg, rgba(139,160,228,1) 0%, rgba(153,255,238,1) 100%);
-}
+/* #pricing-destacado{
+} */
 
 .ud-about .container{
   padding: 0px;
@@ -1668,7 +1667,9 @@ p {
   padding-top: 130px;
   padding-bottom: 80px;
   background: var(--primary-color);
-  background-image: url("../images/banner/banner-bg.svg");
+  /* background-image: url("../images/banner/banner-bg.svg"); */
+  background-image: url("../misimagenes/patronh.jfif");
+  background-image: url("../images/products/a_background_ui_desing_wave_pattern_black_and_white_Seed-3657498_Steps-25_Guidance-7.5.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1681,7 +1682,9 @@ p {
 }
 
 .ud-banner-content h1 {
-  color: var(--white);
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  background-color: black;
+  color: black; 
   font-size: 38px;
   font-weight: 600;
 }
