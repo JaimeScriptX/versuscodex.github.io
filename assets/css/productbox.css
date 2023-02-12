@@ -107,3 +107,28 @@
   width: auto;
 }
 
+.flex-container {
+  display: flex;
+  
+}
+
+.item {
+  flex-basis: calc(10% - 20px);
+  margin: 10px;
+}
+
+@media (max-width: 1600px) {
+  
+.flex-container{
+  flex-wrap: wrap;
+}
+.item{
+  flex-basis: 100%;
+}
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
