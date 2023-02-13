@@ -15,7 +15,7 @@
   --font: "Inter", sans-serif;
   --body-color: #637381;
   --heading-color: #212b36;
-  --primary-color: #3056d3;
+  --primary-color: #7f5539;
   --white: #ffffff;
 }
 
@@ -326,7 +326,7 @@ p {
 }
 
 .navbar-nav .nav-item > a {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   color: var(--white);
   -webkit-transition: all 0.3s ease-out 0s;
@@ -454,6 +454,7 @@ p {
 .navbar-btn .ud-main-btn {
   padding: 8px 16px;
   background: transparent;
+  font-size: 20px;
 }
 
 .navbar-btn .ud-login-btn:hover {
@@ -575,7 +576,7 @@ p {
 
 @media (max-width: 767px) {
   .ud-hero-content .ud-hero-desc {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
   }
 }
