@@ -210,6 +210,7 @@ p {
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+  background-color: black;
 }
 
 .sticky {
