@@ -13,6 +13,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
 :root {
   --font: "Inter", sans-serif;
+  --font2: "Yeseva One", cursive;
   --body-color: #637381;
   --heading-color: #212b36;
   --primary-color: #7f5539;
@@ -532,10 +533,9 @@ p {
 }
 
 .ud-hero-content {
-  max-width: 780px;
+  max-width: 1680px;
   margin: auto;
   margin-bottom: 30px;
-
 }
 
 .ud-hero-content .ud-hero-title {
@@ -558,6 +558,30 @@ p {
 @media (max-width: 767px) {
   .ud-hero-content .ud-hero-title {
     font-size: 26px;
+    line-height: 38px;
+  }
+}
+
+.ud-hero-content .titulo {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 150px;
+  line-height: 60px;
+  text-align: center;
+  margin-bottom: 30px;
+  
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1400px) {
+  .ud-hero-content .titulo {
+    font-size: 120px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 799px) {
+  .ud-hero-content .titulo {
+    font-size: 90px;
     line-height: 38px;
   }
 }
