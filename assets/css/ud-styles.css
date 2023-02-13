@@ -153,6 +153,7 @@ p {
   -webkit-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
   background: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
 .ud-main-btn:hover {

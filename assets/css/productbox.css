@@ -109,7 +109,7 @@
 
 .flex-container {
   display: flex;
-  
+
 }
 
 .item {
@@ -121,9 +121,11 @@
   
 .flex-container{
   flex-wrap: wrap;
+  align-items: center;
 }
 .item{
   flex-basis: 100%;
+
 }
 }
 
