@@ -935,7 +935,7 @@ p {
 /* ===== Pricing CSS ===== */
 .ud-pricing {
   padding-top: 120px;
-  padding-bottom: 90px;
+  /* padding-bottom: 50px; */
 }
 
 @media (max-width: 767px) {
@@ -1153,7 +1153,7 @@ p {
 
 /* ===== Testimonials CSS ===== */
 .ud-testimonials {
-  padding-top: 120px;
+  padding-top: 50px;
 }
 
 @media (max-width: 767px) {
@@ -2431,16 +2431,21 @@ p {
 }
 
 .ud-newsletter-box .ud-newsletter-form .ud-main-btn {
-  background: #13c296;
+  background: black;
+  color: white;
+  
   -webkit-box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.01);
           box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.01);
   border-radius: 5px;
   width: 100%;
-  margin-bottom: 24px;
+  margin-bottom: 24px;  
 }
 
 .ud-newsletter-box .ud-newsletter-form .ud-main-btn:hover {
-  background: var(--heading-color);
+  /* background: var(--heading-color); */
+  background: rgb(73, 62, 62);
+  color: white;
+  
 }
 
 .ud-newsletter-box .ud-newsletter-form .ud-newsletter-note {
