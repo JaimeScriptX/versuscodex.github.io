@@ -14,6 +14,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>document.getElementsByTagName("html")[0].className += " js";</script>
     <link rel="stylesheet" href="./micss/index.css">
     <base href="/">
     <title>NothingCoffee</title>
@@ -48,6 +49,11 @@
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/lineicons.css" />
     <link rel="stylesheet" href="assets/css/ud-styles.css" />
+
+
+
+
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
     <!-- ====== Header Start ====== -->
@@ -320,7 +326,88 @@
     </div>
     <!-- ====== About End ====== -->
 
-    <!-- ====== Pricing Start ====== -->
+    <section class="cd-h-timeline js-cd-h-timeline margin-bottom-md" style="margin-top: 100px;">
+      
+      <div class="cd-h-timeline__container container">
+        <div class="cd-h-timeline__dates">
+          <div class="cd-h-timeline__line">
+            <ol>
+              <li><a href="#0" data-date="16/01/2014" class="cd-h-timeline__date cd-h-timeline__date--selected">Inicios</a></li>
+              <li><a href="#0" data-date="28/02/2014" class="cd-h-timeline__date">2015</a></li>
+              <li><a href="#0" data-date="28/02/2014" class="cd-h-timeline__date">2016</a></li>
+              <li><a href="#0" data-date="20/04/2014" class="cd-h-timeline__date">2020</a></li>
+              <li><a href="#0" data-date="20/05/2014" class="cd-h-timeline__date">2023</a></li>
+
+            </ol>
+  
+            <span class="cd-h-timeline__filling-line" aria-hidden="true"></span>
+          </div> <!-- .cd-h-timeline__line -->
+        </div> <!-- .cd-h-timeline__dates -->
+          
+        <ul>
+          <li><a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--prev cd-h-timeline__navigation--inactive">Prev</a></li>
+          <li><a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--next">Next</a></li>
+        </ul>
+      </div> <!-- .cd-h-timeline__container -->
+  
+      
+  
+      <div class="cd-h-timeline__events">
+        <ol>
+          <li class="cd-h-timeline__event cd-h-timeline__event--selected text-component">
+            <div class="cd-h-timeline__event-content container">
+              <h2 class="cd-h-timeline__event-title" style="text-align: center;">Nuestra Historia</h2>
+              <p class="cd-h-timeline__event-description color-contrast-medium"> 
+                
+              </p>
+            </div>
+          </li>
+  
+          <li class="cd-h-timeline__event text-component">
+            <div class="cd-h-timeline__event-content container">
+              <h2 class="cd-h-timeline__event-title">2015</h2>
+              <em class="cd-h-timeline__event-date">February 28th, 2014</em>
+              <p class="cd-h-timeline__event-description color-contrast-medium"> 
+                Una idea. La necesidad de un comercio donde comprar una variedad de café tostado. Comentado en un grupo de amigos con ganas de crear algo grande sobre lo que invertir tiempo y dedicación
+              </p>
+            </div>
+          </li>
+          <li class="cd-h-timeline__event text-component">
+            <div class="cd-h-timeline__event-content container">
+              <h2 class="cd-h-timeline__event-title">2016</h2>
+              <em class="cd-h-timeline__event-date">February 28th, 2014</em>
+              <p class="cd-h-timeline__event-description color-contrast-medium"> 
+                Reunimos el capital social de 3000 euros. Constituimos una Sociedad Limitada. Encontramos unos proveedores de Brasil y Colombia. Contactámos con ellos y empezamos un trato que dura hasta la fecha
+              </p>
+            </div>
+          </li>
+  
+          <li class="cd-h-timeline__event text-component">
+            <div class="cd-h-timeline__event-content container">
+              <h2 class="cd-h-timeline__event-title">2020</h2>
+              <em class="cd-h-timeline__event-date">March 20th, 2014</em>
+              <p class="cd-h-timeline__event-description color-contrast-medium"> 
+                Decidimos invertir en una página web para captar un nuevos clientes y ofrecer compra online. Este fue un gran paso de nuestra empresa ya que podría llegar a expandir nuestro alcance sobre clientes de una forma muy grande.
+
+              </p>
+            </div>
+          </li>
+  
+          <li class="cd-h-timeline__event text-component">
+            <div class="cd-h-timeline__event-content container">
+              <h2 class="cd-h-timeline__event-title">2023</h2>
+              <em class="cd-h-timeline__event-date">May 20th, 2014</em>
+              <p class="cd-h-timeline__event-description color-contrast-medium"> 
+                Hoy en día, podemos decir que ofrecemos al cliente una variedad de productos considerable y de primera calidad gracias a nuestros proveedores. Nuestro sitio web es una página muy transcurrida y hacemos pedidos a todas partes del mundo.
+              </p>
+            </div>
+          </li>
+          
+  
+          
+        </ol>
+      </div> <!-- .cd-h-timeline__events -->
+    </section>
     <section id="pricing" class="ud-pricing">
       <div class="container">
         <div class="row">
@@ -1234,6 +1321,12 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
+
+
+    <!--TIMELINE-->
+    <script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+    <script src="assets/js/swipe-content.js"></script> <!-- A Vanilla JavaScript plugin to detect touch interactions -->
+    <script src="assets/js/main-tl.js"></script>
     <script>
       // ==== for menu scroll
       const pageLink = document.querySelectorAll(".ud-menu-scroll");
