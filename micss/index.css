@@ -6,6 +6,7 @@
 #home{
     background-image: url("../assets/misimagenes/cafe-corazon-bg.png");
     background-size: cover;
+    /* background-size: cover; */
 }
 
 /* .ud-about{
