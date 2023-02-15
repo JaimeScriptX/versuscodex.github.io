@@ -24,6 +24,15 @@
   --white: #ffffff;
 }
 
+/* @media (max-width: 990px) {
+  .reverso{
+    display:flex;
+    flex-direction: column-reverse;
+  }
+} */
+
+
+
 body {
   font-family: var(--font);
   font-weight: normal;
@@ -894,9 +903,16 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .ud-about-wrapper {
-    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reverso{
+    flex-direction: column-reverse;
   }
 }
+
+
 
 .ud-about-content-wrapper {
   padding: 70px;
