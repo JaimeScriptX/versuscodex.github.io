@@ -24,6 +24,15 @@
   --white: #ffffff;
 }
 
+/* @media (max-width: 990px) {
+  .reverso{
+    display:flex;
+    flex-direction: column-reverse;
+  }
+} */
+
+
+
 body {
   font-family: var(--font);
   font-weight: normal;
@@ -894,9 +903,16 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .ud-about-wrapper {
-    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reverso{
+    flex-direction: column-reverse;
   }
 }
+
+
 
 .ud-about-content-wrapper {
   padding: 70px;
@@ -996,8 +1012,9 @@ p {
 }
 
 .ud-single-pricing.active .ud-pricing-body li {
-  color: var(--white);
+  color: var(--body-color);
   text-decoration-style: wavy;
+  text-align: center;
 }
 
 .ud-single-pricing.first-item::after, .ud-single-pricing.last-item::after {
@@ -1053,6 +1070,7 @@ p {
   font-weight: 500;
   font-size: 15px;
   margin-bottom: 18px;
+  border-radius: 10px;
 }
 
 .ud-single-pricing .ud-main-btn {
@@ -1523,13 +1541,13 @@ p {
 }
 
 .ud-contact-form-wrapper .ud-form-group {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .ud-contact-form-wrapper .ud-form-group label {
   display: block;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 25px;
 }
 
 .ud-contact-form-wrapper .ud-form-group input,
@@ -1539,7 +1557,7 @@ p {
   padding: 15px 0;
   border: none;
   outline: none;
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 3px solid #919191;
   resize: none;
 }
 
@@ -1772,7 +1790,7 @@ p {
 }
 
 .ud-login-form .ud-form-group {
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 .ud-login-form .ud-form-group input {
