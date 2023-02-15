@@ -1012,8 +1012,9 @@ p {
 }
 
 .ud-single-pricing.active .ud-pricing-body li {
-  color: var(--white);
+  color: var(--body-color);
   text-decoration-style: wavy;
+  text-align: center;
 }
 
 .ud-single-pricing.first-item::after, .ud-single-pricing.last-item::after {
@@ -1069,6 +1070,7 @@ p {
   font-weight: 500;
   font-size: 15px;
   margin-bottom: 18px;
+  border-radius: 10px;
 }
 
 .ud-single-pricing .ud-main-btn {
@@ -1539,13 +1541,13 @@ p {
 }
 
 .ud-contact-form-wrapper .ud-form-group {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .ud-contact-form-wrapper .ud-form-group label {
   display: block;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 25px;
 }
 
 .ud-contact-form-wrapper .ud-form-group input,
@@ -1788,7 +1790,7 @@ p {
 }
 
 .ud-login-form .ud-form-group {
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 .ud-login-form .ud-form-group input {
