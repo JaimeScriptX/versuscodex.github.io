@@ -1,19 +1,64 @@
 # Play - Free HTML Template for Startup, Apps and SaaS
 
-Play is an open-source and free bootstrap 5 based HTML template created by the UIdeck team. It's a part of our new initiative to give back to the community and create some impactful open source projects.
+<!-- =========
 
-This template is designed and developed in such a way so, that almost anyone can use it for almost any kind of website or landing pages such as SaaS, Startup, Business, Apps, Software and Agency, etc.
+	Template Name: Play
+	Author: UIdeck
+	Author URI: https://uideck.com/
+	Support: https://uideck.com/support/
+	Version: 1.1
 
-Play comes with all essential sections and elements a complete website needs, additionally, we also created some separate pages including blogs, login, 404, and some other essential pages from homepage sections.
+========== -->
+<!-- Primary Meta Tags -->
+<meta name="title" content="NothingCoffee">
+<meta name="description" content="Venta y suscripción de cafe de grano y cápsula">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://versuscodex.github.io/index.html">
+<meta property="og:title" content="NothingCoffee">
+<meta property="og:description" content="Play - Free Open Source HTML Bootstrap Template by UIdeck Team">
+<meta property="og:image" content="https://uideck.com/wp-content/uploads/2021/09/play-meta-bs.jpg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://versuscodex.github.io/index.html">
+<meta property="twitter:title" content="NothingCoffee">
+<meta property="twitter:description" content="Venta y suscripción de cafe de grano y cápsula">
+<meta property="twitter:image" content="https://uideck.com/wp-content/uploads/2021/09/play-meta-bs.jpg">
 
 ### This template crafted using 🥞 [TailGrids](https://tailgrids.com/) UI components (design)
+<img src="assets/images/logo/NothingBlanco.svg" alt="Logo" width="120">
+<img src="./assets/misimagenes/cafe1.png" alt="Imágenes de una taza de café y un molinillo para aplastar los granos de café" >
+<img src="./assets/misimagenes/cafe2.png" alt="Imágenes de tres tazas de café, un portafiltros con granos de café molido y hombre echándose café" >
+<img src="./assets/misimagenes/cafe3.png" alt="Imágenes de una mujer tomandose un café helado y una cafetera de bar" >
+<img src="assets/images/team/Alberto1.svg" alt="Foto de Alberto: Product Designer" >
+<img src="assets/images/team/olga1.svg" alt="Foto de Olga: UI Designer" >
+<img src="assets/images/team/martin.svg" alt="Foto de Martín: Product Designer">
+<img src="assets/images/team/Jaime.svg" alt="Foto de Jaime: Content Writer" >
+<img src="assets/images/team/Luis.png" alt="Foto de Luis: App Developer" >
+<img src="assets/images/logo/logo.png" alt="logo" >
+<img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" >
+
+
 
 
 ### [🚀 View Demo](https://preview.uideck.com/items/play-bootstrap/)
 
 ### [⬇️ Download Now](https://links.uideck.com/play-bootstrap-download)
+    <!-- ===== All CSS files ===== -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="assets/css/animate.css" >
+    <link rel="stylesheet" href="assets/css/lineicons.css" >
+    <link rel="stylesheet" href="assets/css/ud-styles.css" >
+    <link rel="stylesheet" href="assets/css/style.css">
 
-[![playbootstrap-demo](https://uideck.com/wp-content/uploads/2021/09/play-bootstrap.jpg)](https://preview.uideck.com/items/play-bootstrap/)
+    <!--====== Favicon Icon ======-->
+    <link
+      rel="shortcut icon"
+      href="assets/images/Nothing_coffe_negro_favicon.svg"
+      type="image/svg"
+    >
 
 Accesibilidad
 
