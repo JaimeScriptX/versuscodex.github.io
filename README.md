@@ -17,6 +17,10 @@ Play comes with all essential sections and elements a complete website needs, ad
 
 Accesibilidad
 
+    En éste enlace validamos nuestro html de la tienda en validator.w3.org
+    https://validator.w3.org/nu/?doc=https%3A%2F%2Fversuscodex.github.io%2Findex.html
+
+
     Diseño web responsive: La página está diseñada para ser accesible desde diferentes dispositivos y tamaños de pantalla, incluyendo teléfonos móviles, tabletas y ordenadores de escritorio.
     Navegación intuitiva: La navegación en la página es sencilla e intuitiva, para que los usuarios puedan encontrar fácilmente lo que están buscando. Tenemos un menú claro y fácil de usar que puede ayudar a mejorar la experiencia del usuario.
     Texto claro y legible: Todo el texto de la página está escrito en una fuente fácil de leer y cuenta con un alto contraste con el fondo, lo que hace que sea fácil de leer para todas las personas, independientemente de su capacidad visual.
