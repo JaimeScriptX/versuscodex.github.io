@@ -59,6 +59,42 @@
       href="assets/images/Nothing_coffe_negro_favicon.svg"
       type="image/svg"
     >
+### [⬇ content development and decisions]
+
+Introducción
+    Nuestro proyecto consiste en una página web sobre una empresa de café ficticia donde ofrecemos nuestros productos (café en grano) disponibles para ser comprados. La web consta de varias partes explicadas más abajo. En la web aparece desde unas ideas base de lo que trata la empresa hasta las suscripciones, historia y el equipo que la conforma.
+    Inicialmente hicimos un prototipo de la web en figma y luego lo aplicamos a una plantilla html basándonos en nuestro propio diseño.
+    Queríamos hacer una web que basara su esencia en el café así que nos inspiramos en los colores del café para hacerla.
+
+Puntos fuertes
+    1.    Variedad de productos: Una gran selección de granos de café de diferentes regiones, mezclas y sabores, así como una amplia variedad de cápsulas de café para todos los gustos, desde los clásicos hasta las mezclas más novedosas.
+    2.    Comodidad de suscripción: La opción de suscribirse para recibir mensualmente un suministro de cápsulas y granos de café es una gran comodidad para los clientes ocupados que no quieren preocuparse por quedarse sin café en casa.
+    3.    Descuentos y ofertas especiales: La posibilidad de ofrecer descuentos exclusivos y ofertas especiales a los suscriptores mensuales puede ser un gran atractivo para aquellos que buscan ahorrar en su presupuesto de café.
+    4.    Información detallada del producto: Una página que proporcione información detallada sobre cada tipo de grano de café y cápsula puede ser muy útil para los clientes que quieren saber más sobre lo que están comprando.
+    5.    Pruebas de sabor y comentarios de clientes: Ofrecer la posibilidad de probar diferentes tipos de cápsulas y granos de café, y compartir las opiniones de otros clientes, puede ayudar a los clientes a tomar decisiones informadas sobre sus compras.
+    6.    Servicio al cliente excepcional: Una página de café que ofrezca un excelente servicio al cliente, con respuestas rápidas y soluciones efectivas a cualquier problema, puede ser muy valorada por los clientes y aumentar la lealtad de los mismos a la marca.
+
+Aspectos a mejorar:
+    Optimización del rendimiento de la web, en un uso normal de la web el rendimiento es bueno, pero se podría mejorar haciendo que se guarden las imágenes en la caché del navegador, haciendo así más rápida la navegación una vez hayas entrado una primera vez.
+    Herramientas colaborativas:
+    Las herramientas colaborativas usadas para la realización del proyecto han sido varias entre ellas destacamos Trello para la asignación de tareas, Figma para prototipar el diseño de la web, Whatsapp para consultas y discord para las reuniones.
+
+Decisiones:
+
+    ·        Secciones -> Hemos dividido la página web en varias secciones. Por un lado las secciones que se encuentran en la página principal: 
+    -Qué ofrecemos, donde describimos los puntos clave de los productos que ofrecemos a los clientes.
+    -Planes de suscripción, donde enseñamos los planes mensuales disponibles para que los clientes .
+    -Nuestro equipo, donde mostramos las personas que han sido partícipes de la empresa.
+    -Contacto, donde los clientes pueden contactar con la empresa en caso de cualquier duda o problema.
+    También tenemos un apartado de blogs, donde hay varias entradas relacionadas con el tema del café y la sección de compra donde los usuarios podrían comprar los productos que ofrecemos.
+    ·        Logotipo -> En cuanto al logotipo, buscábamos algo que simbolizara el café sin ser una simple taza ya que ya es muy común. Por ello, creamos algo original utilizando las palabras del nombre de la empresa.
+    ·        Tipografía -> La tipografía que el equipo ha decidido usar como principal ha sido Inter (Google Fonts open source) y Yeseva One (dafont.com Dominio público) 
+    ·        Colores -> La paleta de colores en la cual queríamos inspirarnos en nuestra web son colores claros y relacionados con el café. Por eso hemos utilizado el blanco combinándolo con un color marrón claro en los lugares que queríamos destacar
+    ·        Padding  y Margin->Respecto a los padding y margin hemos querido dejar bastante espacio en blanco para dar limpieza y claridad, además de resaltar bien los elementos que conforman nuestro sitio web
+    ·        Imágenes -> Todas las imágenes que hemos utilizado son relacionadas con el café y han sido obtenidas del banco de imágenes pixabay.
+
+Imagen:
+    Para la edición de imágenes hemos usado Gimp con la cual hemos hecho los artículos desde una plantilla de uso gratuito, hemos usado bimp, un plugin de gimp para la compresión y optimización de las imágenes y los logos han sido creados a partir de gimp y renderizados en inkscape.
 
 Accesibilidad
 
